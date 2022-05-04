@@ -360,4 +360,8 @@ import itertools
 #     all += place*sum
 # print(all)
 
-
+# -- 24 --
+# n = '0123456789'
+# l = [''.join(i) for i in itertools.permutations(n, 10)]
+# l.sort()
+# print(l[999999])
