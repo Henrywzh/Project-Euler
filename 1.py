@@ -322,3 +322,26 @@ import itertools
 # for i in range(len(str(num))):
 #     l.append(int(str(num)[i]))
 # print(sum(l))
+
+# -- 21 -- Amicable numbers:
+# def d(n):
+#     sum = 0
+#     l = []
+#     for i in range(1,n):
+#         if n % i == 0:
+#             sum += i
+#     return sum
+#
+# def main():
+#     l = []
+#     l2 = []
+#     sum = 0
+#     for i in range(1,10000):
+#         l.append(d(i))
+#         l2.append(d(l[i-1]))
+#         if l2[i-1] == i and l2[i-1] != l[i-1]:
+#             sum += i
+#
+#     print(sum)
+#
+# main()
