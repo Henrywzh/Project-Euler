@@ -174,6 +174,21 @@
 #
 # main()
 
+# -- 38 -- Pandigital multiples
+# for i in range(1,10000):
+#     multi = ''
+#     integer = 1
+# 
+#     while len(multi) < 9:
+#         multi += str(i*integer)
+#         integer += 1
+# 
+#     if ((len(multi) == 9) and (len(set(multi)) == 9) and ('0' not in multi)):
+#         if int(multi) > biggest:
+#             biggest = int(multi)
+# 
+# print(biggest)
+
 # -- 39 -- Integer right triangles:
 # p = []
 # count = []
