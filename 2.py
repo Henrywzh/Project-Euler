@@ -324,6 +324,35 @@
 #     if (1+(1+24*t[i])**0.5) % 6 == 0 and (1+(1+8*t[i])**0.5) % 4 == 0:
 #         print(t[i])
 
+# -- 46 -- Goldbach's other conjecture:
+# def prime(n):
+#     if n == 1:
+#         return False
+#     elif n == 2:
+#         return True
+# 
+#     for i in range(3,int(n**0.5)+2, 2):
+#         if n % i == 0 or n % 2 == 0:
+#             return False
+#     else:
+#         return True
+# 
+# num = 3
+# 
+# primeList = [2]
+# 
+# while True:
+#     if prime(num):
+#         primeList.append(num)
+#     else:
+#         for i in primeList:
+#                 if ((num-i)/2)**0.5 == int(((num-i)/2)**0.5):
+#                     break
+#         else:
+#             print(num)
+#             break
+#     num += 2
+
 # -- 48 -- Self powers: 1 - 1000
 # def eqn(n):
 #     return n**n
